@@ -1,5 +1,7 @@
 # asdf-fluxctl
 
+[![Build Status](https://travis-ci.com/stefansedich/asdf-fluxctl.svg?branch=master)](https://travis-ci.com/stefansedich/asdf-flluxctl)
+
 [Fluxctl](https://github.com/weaveworks/flux) plugin for the [asdf](https://github.com/asdf-vm/asdf) version manager.
 
 ## Install
