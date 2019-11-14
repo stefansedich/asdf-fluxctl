@@ -45,7 +45,7 @@ get_download_url() {
   local platform="$2"
   local filename="$(get_filename $version $platform)"
 
-  echo "https://github.com/weaveworks/flux/releases/download/${version}/${filename}"
+  echo "https://github.com/fluxcd/flux/releases/download/${version}/${filename}"
 }
 
 install_fluxctl $ASDF_INSTALL_TYPE $ASDF_INSTALL_VERSION $ASDF_INSTALL_PATH
